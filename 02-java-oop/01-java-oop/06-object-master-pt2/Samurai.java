@@ -1,6 +1,6 @@
 public class Samurai extends Human {
 
-    public static int count;
+    private static int count;
 
     public Samurai() {
         super(3, 3, 3, 200);
