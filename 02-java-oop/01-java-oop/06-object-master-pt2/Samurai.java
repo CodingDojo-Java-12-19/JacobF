@@ -1,9 +1,10 @@
 public class Samurai extends Human {
-    public int count;
+
+    private static int count;
 
     public Samurai() {
         super(3, 3, 3, 200);
-        count += 1;
+        count++;
     }
 
     public void deathBlow(Human human) {
@@ -20,4 +21,5 @@ public class Samurai extends Human {
         System.out.println(count);
         return count;
     }
+    
 }
