@@ -1,6 +1,6 @@
 public class Samurai extends Human {
 
-    private static int count;
+    public static int count;
 
     public Samurai() {
         super(3, 3, 3, 200);
@@ -17,7 +17,7 @@ public class Samurai extends Human {
         this.health += this.health / 2;
     }
 
-    public int howMany() {
+    public static int howMany() {
         System.out.println(count);
         return count;
     }
