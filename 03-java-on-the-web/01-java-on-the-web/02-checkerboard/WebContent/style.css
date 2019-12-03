@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+.board-container {
+    padding: 20px;
+    border: 2px solid black;
+}
+.tile {
+	width: 50px;
+	height: 50px;
+    display: inline-block;
+    margin: -2px;
+}
+.red {
+	background-color: red;
+}
+.black {
+	background-color: black;
+}
+.purple {
+	background-color: purple;
+}
